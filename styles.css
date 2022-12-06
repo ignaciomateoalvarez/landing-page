@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+.top-container{
+    background-color: #1F2937;
+    display: block;
+    height: 450px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-navbar{
+    font-size: 24px;
+}
+.right-navbar{
+    margin-left: 300px;
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
