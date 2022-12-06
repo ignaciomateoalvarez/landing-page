@@ -4,8 +4,7 @@ body{
 
 .top-container{
     background-color: #1F2937;
-    display: block;
-    height: 450px;
+    height: 550px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -13,17 +12,25 @@ body{
     color: white;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 230px
 }
 
 .left-navbar{
     font-size: 24px;
+    color: #f9faf8;
 }
+
 .right-navbar{
-    margin-left: 300px;
     font-size: 18px;
     display: flex;
     gap: 30px;
+    align-self: center;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
 }
 
 .navbar a{
@@ -31,7 +38,52 @@ body{
     text-decoration: none;
 }
 
-.navbar li{
-    list-style: none;
-    display: inline-block;
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px 50px 270px;
+    
 }
+
+.text-container{
+    display: flex;
+    color: #f9faf8;
+    max-width: 450px;
+    flex-wrap: wrap;
+}
+
+.text-container p{
+    font-size: 18px;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.text-container button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.image-container{
+    display: flex;
+    background-color: rgb(151, 151, 151);
+    align-self: flex-end;
+    min-width: 700px;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+
