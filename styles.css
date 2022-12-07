@@ -1,3 +1,5 @@
+/* FIRST CONTAINER */
+
 body{
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -6,37 +8,36 @@ body{
 .top-container{
     background-color: #1F2937;
     height: 550px;
-    ;
 }
 
 .navbar{
-    color: white;
-    list-style: none;
     display: flex;
     justify-content: space-between;
+    color: white;
+    list-style: none;
     margin: 0 230px
 }
 
 .left-navbar{
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
 }
 
 .right-navbar{
-    font-size: 18px;
     display: flex;
-    gap: 30px;
     align-self: center;
+    font-size: 18px;
+    gap: 30px;
 }
 
 .navbar li{
-    list-style: none;
     display: inline-block;
+    list-style: none;
 }
 
 .navbar a{
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 .top-content{
@@ -48,9 +49,9 @@ body{
 
 .text-container{
     display: flex;
+    flex-wrap: wrap;
     color: #f9faf8;
     max-width: 450px;
-    flex-wrap: wrap;
 }
 
 .text-container p{
@@ -64,14 +65,13 @@ body{
 }
 
 .text-container button{
-    background-color: #3882f6;
-    color: white;
-    font-weight: 900;
-    border: none;
-    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-weight: 900;
+    padding: 10px 40px;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -79,15 +79,17 @@ body{
 .image-container{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    background-color: rgb(98, 100, 112);
-    color: #e5e7eb;
     align-self: flex-end;
-    min-width: 700px;
-    min-height: 250px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(98, 100, 112);
+    color: #e5e7eb;
+    min-width: 700px;
+    min-height: 250px;
         
 }
+
+/* SECOND CONTAINER */
 
 .second-title{
     text-align: center;
@@ -120,35 +122,35 @@ body{
 }
 
 .description{
-    color: rgb(63, 63, 63);
-    font-size: 18px;
     display: flex;
     justify-content: center;
+    color: rgb(63, 63, 63);
+    font-size: 18px;
     gap: 60px;
 
 }
 
 .description div{
-    width: 200px;
     text-align: center;
+    width: 200px;
 }
 
+/* THIRD CONTAINER */
+
 .third-container{
-    background-color: #e5e7eb;
-    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
     color: #1F2937;
+    height: 450px;
 }
 
-
-
 .quote{
+    font-style: italic;
     width: 810px;
     font-size: 36px;
-    font-style: italic;
     font-weight: 100;
 }
 
@@ -167,41 +169,43 @@ body{
     margin-top: 0;
 }
 
+/* FOURTH CONTAINER */
 
 .fourth-container{
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .blue-container{
-    width: 1200px;
-    height: 100px;
-    background-color: #3882f6;
     display: flex;
-    padding: 40px;
-    border-radius: 15px;
-    color: #e5e7eb;
     align-items: center;
     justify-content: space-around;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 1200px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 15px;
     font-size: 24px;
     line-height: 10px;
 }
 
 .blue-container button{
+    text-align: center;
+    text-decoration: none;
     background-color: #3882f6;
     color: white;
     font-weight: 900;
     border: none;
     padding: 10px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 18px;
     border-radius: 6px;
     border: 3px solid #e5e7eb;
 }
+  
+/* FOOTER */
 
 .footer{
     display: flex;
